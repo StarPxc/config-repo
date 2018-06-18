@@ -19,3 +19,4 @@ PRODUCT:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 env:
   pxc
+#多人协作的开发的时候可以使用这种方式每个人操作自己的配置文件
