@@ -10,9 +10,9 @@ spring:
   jpa:
       show-sql: true
 server:
-  port: 8004
+  port: 8001
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 env:
-  dev
+  dev2
