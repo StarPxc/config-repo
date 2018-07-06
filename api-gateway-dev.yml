@@ -1,0 +1,14 @@
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders: #敏感头设置为null 原先cookie是敏感头
+    #简洁写法
+    #product: /myProduct/**
+  ignored-patterns: /**/product/listForOrder
+management:
+  security:
+    enabled: false
+server:
+  port: 9000
